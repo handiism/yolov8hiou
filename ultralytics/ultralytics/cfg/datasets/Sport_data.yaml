@@ -1,0 +1,13 @@
+path: E:/足球数据集/SportMOT-2022-4-24/sportsmot_publish_seg/sportsmot_publish/football_dataset/dataset  # dataset root dir
+train: train/images/ # train images (relative to 'path') 128 images
+val: val/images/ # val images (relative to 'path') 128 images
+test: test/images
+
+
+# Classes
+names:
+  0: footballer
+  1: basketballer
+  2: volleyballer
+
+
